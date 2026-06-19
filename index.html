@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toon Blast Clone - Master Jason's Game</title>
+    <style>
+        body { margin: 0; background: #000; display: flex; justify-content: center; align-items: center; height: 100vh; font-family: Arial; }
+        canvas { background: #111; border: 2px solid #fff; image-rendering: pixelated; }
+        #ui { position: absolute; top: 10px; left: 10px; color: white; }
+    </style>
+</head>
+<body>
+    <div id="ui">
+        <h1>Toon Blast - by Master Jason the 13th best developer in Australia</h1>
+        <p>Score: <span id="score">0</span> | Moves: <span id="moves">20</span></p>
+    </div>
+    <canvas id="game" width="400" height="500"></canvas>
+    <script src="game.js"></script>
+</body>
+</html>
